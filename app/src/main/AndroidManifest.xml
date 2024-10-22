@@ -13,6 +13,11 @@
         android:theme="@style/Theme.TestingGithub"
         tools:targetApi="31">
         <activity
+            android:name=".cobaCoba"
+            android:exported="false"
+            android:label="@string/title_activity_coba_coba"
+            android:theme="@style/Theme.TestingGithub" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
